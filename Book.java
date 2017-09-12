@@ -35,6 +35,10 @@ class Book {
      *    that.title
      */
   }
+ 
+  
+  // TODO design a function publishedBefore that accepts a Book and
+  //   returns true if this Book was published before the other 
   
   // TEMPLATE
   /*   Fields:
@@ -52,5 +56,7 @@ class Book {
   
   boolean publishedBefore(Book that){
     return (that.year < this.year);
-  } 
+  }
+  
+  
 }
