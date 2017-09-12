@@ -5,6 +5,22 @@ class ExamGrades {
     this.grades = grades;
   }
   
-  // TODO design a function that returns the highest grade
+  //TEMPLATE
+  /*Fields:
+   *  ...this.grades... 
+   * 
+  */
   
+  //-> int
+  // Returns the highest grade in this array of grades
+  
+  double highestGrade(){
+    double temp= 0.0;
+    for(int i = 0; i < this.grades.length; i++){
+      if(grades[i] > temp){
+        temp = grades[i];
+      }
+    }
+    return temp;
+  }
 }
