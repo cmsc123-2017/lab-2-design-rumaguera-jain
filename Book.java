@@ -35,10 +35,22 @@ class Book {
      *    that.title
      */
   }
- 
   
-  // TODO design a function publishedBefore that accepts a Book and
-  //   returns true if this Book was published before the other 
+  // TEMPLATE
+  /*   Fields:
+   *     this.author   -- Author
+   *     this.title    -- String
+   * 
+   *   Methods:
+   * 
+   *   Methods of author:
+   *     this.author.equals()  -- boolean
+   */
   
+  // -> boolean
+  // Returns true if this Book is published before the other
   
+  boolean publishedBefore(Book that){
+    return (that.year < this.year);
+  } 
 }
